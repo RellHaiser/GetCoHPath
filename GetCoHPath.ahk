@@ -54,7 +54,7 @@ if (numLibraries > 0)
 ; If what we're looking for isn't in a library check the default location
 if (found == 0)
 {
-    path := %A_WorkingDir% . "\common\Company of Heroes Relaunch"
+    path := A_WorkingDir . "\common\Company of Heroes Relaunch"
     game := path . "\RelicCoH.exe"
 
     IfExist, %game%
